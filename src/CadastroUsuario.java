@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class CadastroUsuario {
-    public static void main(String[] args) throws IdadeInvalidaException, NomeInvalidoException {
+    public static void main(String[] args) throws Usuario.IdadeInvalidaException, Usuario.NomeInvalidoException {
         Usuario usuario = new Usuario();
         Scanner scanner = new Scanner(System.in);
 

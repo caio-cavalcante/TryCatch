@@ -15,4 +15,16 @@ public class Usuario {
         }
         this.idade = idade;
     }
+
+    static class NomeInvalidoException extends Exception {
+        public NomeInvalidoException(String mensagem) {
+            super(mensagem);
+        }
+    }
+
+    static class IdadeInvalidaException extends Exception {
+        public IdadeInvalidaException(String mensagem) {
+            super(mensagem);
+        }
+    }
 }
